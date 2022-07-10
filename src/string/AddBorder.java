@@ -2,6 +2,20 @@ package string;
 
 public class AddBorder {
 	
+	/*Dado un arry de Strings, agregar un borde
+	 * String[] n = saa,
+	 * 			 sss,
+	 * 			 ldd;
+	 * 
+	 * Quedaçia en:
+	 * 
+	 * ****
+	 * *saa*
+	 * *sss*
+	 * *ldd*
+	 * *****
+	 */
+	
 	String[] solution(String[] picture) {
 	    
 	    String[] result = new String[picture.length + 2];
